@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:DropDownList ID="ddl_Category" runat="server" AutoPostBack="True"></asp:DropDownList>
+            <asp:DropDownList ID="ddl_Category" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddl_Category_SelectedIndexChanged"></asp:DropDownList>
             <asp:DropDownList ID="ddl_Food" runat="server"></asp:DropDownList>
         </div>
     </form>
